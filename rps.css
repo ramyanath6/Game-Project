@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.container{
+    width: 50%;
+    background-color: rgb(244, 235, 242);
+    height: 500px;
+    padding: 0 0 20px;
+    box-shadow:0 0 10px palegreen;
+    margin-top: 180px;
+
+}
+.game{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    margin-top: 83px;
+    margin-left: 3px;
+}
+.game1{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    margin-top: 24px;
+    margin-left: 3px;
+    color: rgb(216, 29, 91);
+}
+.game1 p{
+    display: flex; 
+    justify-content: center;
+    color: rgb(70, 112, 6);
+    height: 5px;
+
+}
+.game img{
+    width:121px;
+    height:120px;
+    border-radius: 20%;
+    border:2px solid rgb(232, 233, 228);
+    cursor:pointer;
+    transition: 0.7s ease-in-out;
+}
+.output{
+    display:flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.output button{
+    width: 50%;
+    padding: 5px;
+    background-color: rgb(177, 76, 157);
+    border: none;
+    transition: 0.7s ease-in-out;
+    text-decoration: double;
+    color: rgb(234, 243, 236);
+    margin-top: 40px;
+    height:45px;
+}
+.output button:hover{
+    transform: scale(90%);
+}
+.game img:hover{
+      transform: scale(90%);
+}
+.heading h2{
+    margin-left: 190px;
+    margin-top: 50px;
+}
+.heading h3{
+    margin-left: 280px;
+}
